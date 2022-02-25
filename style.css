@@ -1,0 +1,15 @@
+#container {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 5px solid black;
+}
+
+.rows {
+    display: flex;
+}
+
+.columns {
+    width: 100%;
+    border: 1px solid lightgrey;
+}
