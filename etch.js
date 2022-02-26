@@ -28,6 +28,10 @@ resetButton.addEventListener("click", resetGrid);
 function resetGrid() {
     document.getElementById('container').innerHTML = "";
     let x = prompt("Please type a number between 1-100");
+    if (x >= 100) {
+        alert('Sorry asshole... that number is too big.');
+        return createGrid(16);
+    };
     createGrid(x);
 };
 
